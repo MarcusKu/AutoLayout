@@ -23,6 +23,7 @@
             android:layout_gravity="center_vertical"
             android:background="@null"
             android:hint="输入用户名"
+            android:textSize="@dimen/sp_12"
             android:padding="@dimen/dp_8" />
 
     </LinearLayout>
@@ -38,11 +39,12 @@
         android:orientation="horizontal">
 
         <EditText
-            android:layout_width="@dimen/dp_200"
+            android:layout_width="@dimen/dp_190"
             android:layout_height="@dimen/dp_40"
             android:layout_gravity="center_vertical"
             android:background="@null"
             android:hint="输入密码"
+            android:textSize="@dimen/sp_12"
             android:paddingBottom="@dimen/dp_8"
             android:paddingLeft="@dimen/dp_8"
             android:paddingTop="@dimen/dp_8" />
@@ -56,6 +58,7 @@
             android:paddingRight="@dimen/dp_8"
             android:paddingTop="@dimen/dp_8"
             android:text="获取验证码"
+            android:textSize="@dimen/sp_16"
             android:textColor="@android:color/black" />
     </LinearLayout>
 
@@ -68,6 +71,7 @@
         android:layout_marginTop="@dimen/dp_8"
         android:background="@drawable/bg_login"
         android:text="登入"
+        android:textSize="@dimen/sp_18"
         android:textColor="@android:color/white" />
 
     <TextView
@@ -79,6 +83,7 @@
         android:layout_marginRight="@dimen/dp_24"
         android:layout_marginTop="@dimen/dp_12"
         android:text="账号登入"
+        android:textSize="@dimen/sp_12"
         android:textColor="@android:color/darker_gray" />
 
     <LinearLayout
