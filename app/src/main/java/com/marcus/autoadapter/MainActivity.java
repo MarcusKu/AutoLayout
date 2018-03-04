@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
         Log.d(TAG, "ydpi : " + metric.ydpi);
         Log.d(TAG, "widthDP : " + metric.widthPixels / metric.density);
         Log.d(TAG, "heightDP : " + metric.heightPixels / metric.density);
+
     }
 
     @Override
